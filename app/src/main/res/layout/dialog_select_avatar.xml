@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_3d"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Chọn ảnh đại diện"
+        android:textColor="@color/neon_cyan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3">
+
+        <!-- Bạn có thể thêm bao nhiêu ảnh tùy thích vào đây -->
+        <ImageView
+            android:id="@+id/avt1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:src="@drawable/image1" />
+
+        <ImageView
+            android:id="@+id/avt2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:id="@+id/avt3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:src="@drawable/image3" />
+
+        <ImageView
+            android:id="@+id/avt4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:src="@drawable/image4" />
+
+    </GridLayout>
+</LinearLayout>

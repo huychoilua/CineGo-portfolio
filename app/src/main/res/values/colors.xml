@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#1E293B</color>
+    <color name="bg_card_dark">#1F2833</color>
+    <color name="neon_blue">#45A29E</color>
+    <color name="neon_cyan">#66FCF1</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_primary_black">#111111</color>
+    <color name="text_secondary">#C5C6C7</color>
+    <color name="text_secondary_black">#111111</color>
+    <color name="error_red">#EF4444</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
